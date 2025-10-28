@@ -1,0 +1,134 @@
+h1 {
+    color:rgb(255, 0, 0);
+}
+.title{
+    color: white;
+}
+.titulo {
+    font-size: 40px;
+}
+h4 {
+    color: white;
+}
+body {
+    margin: 80px;
+    margin-top: 10px;
+    font-family: 'Monserrat', sans-serif;
+    background-color: black;
+}
+button {
+    background-color: red;
+    color: white;
+    margin-left: 50px;
+    margin-top: 20px; 
+    border-color: red;
+    border-radius: 4px;
+    font-size: 16;
+    padding: 10px 15px;
+
+}
+.centro {
+    text-align: calc(23xp);
+}
+.marco {
+    background-color: transparent;
+    padding: 10px 20px;
+}
+h2 {
+    color: white;
+}
+.redonda {
+    border-radius: 12px; /* esquinas suavemente redondeadas */
+}
+h3 {
+    color: white;
+}
+h4 {
+    color: white;
+
+    }
+.contenedor-recuadros {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+}
+.recuadro{
+    flex: 1 1 22%;
+    background-image: linear-gradient(to right, #1B072B, #08072B);
+    color: white;
+    padding: 18px;
+    border-radius: 12px;
+    width: 20px;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin: 38px;
+}
+.icono {
+    width: 80px;
+    margin-bottom: 10px;
+}
+.preguntasfrecuentes {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+.info {
+    border-bottom: 1px solid #444;
+    margin-bottom: 10px;
+}
+.info input {
+    display: none;
+}
+.label {
+    display: block;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    padding: 10px 0;
+}
+.label::after {
+    content: "+";
+    position: absolute;
+    right: 0;
+}
+.info input + .label::after {
+    content: "-"
+}
+.respuesta {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-heigth 0.3 ease;
+    color:#ccc
+}
+.info input:checked ~ .respuesta {
+    max-height: 200px;
+    padding: 10px;
+}
+p { 
+    color:  rgb(255, 255, 255);
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+select {
+    background-color: black;
+    color: white;
+    font-size: 16;
+    padding: 10px 15px;
+    border-color: white;
+    appearance: none;
+    border-radius: 4px;
+}
+small {
+    color: #ccc;
+}
