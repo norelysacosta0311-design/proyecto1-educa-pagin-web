@@ -1,27 +1,44 @@
-h1 {
-    color:rgb(255, 0, 0);
-}
-.title{
-    color: white;
-}
-.titulo {
-    font-size: 40px;
-}
-h4 {
-    color: white;
-}
 body {
-    margin: 80px;
-    margin-top: 10px;
+    margin: 0px;
+    margin-top: 0px;
     font-family: 'Monserrat', sans-serif;
-    background-color: black;
+    background-color: #000;
+    color: #fff;
 }
 .imagen-fondo { 
-    background-image: url("https://yourspanishguide.com/wp-content/uploads/2021/02/dUyCkp.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top center;
+    min-height: 100vh;
+    width: 105%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
   }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 8%;
+  }
+.logo-net {
+    width: 150px;
+    height: 60px;
+    object-fit: cover;
+  }
+.bienvenida {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-top: 5%;
+}
+.bienvenida h1 {
+    font-size: 50px;
+}
+.bienvenida p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
 button {
     background-color: red;
     color: white;
@@ -33,26 +50,20 @@ button {
     padding: 10px 15px;
 
 }
-.centro {
-    text-align: calc(23px);
-}
 .marco {
     background-color: transparent;
-    padding: 10px 20px;
+    padding: 10px 60px;
+    margin: 5px;
 }
-h2 {
-    color: white;
+.tendencias {
+    margin-left: 80px;
 }
 .redonda {
-    border-radius: 12px; 
+    border-radius: 5px; 
 }
-h3 {
-    color: white;
+.to-join {
+    margin-left: 80px;
 }
-h4 {
-    color: white;
-
-    }
 .contenedor-recuadros {
     display: flex;
     justify-content: space-between;
@@ -60,20 +71,26 @@ h4 {
     gap: 10px;
     padding: 10px;
 }
-.recuadro{
-    flex: 1 1 22%;
+.peliculas {
+    padding: 15px;
+
+
+}
+.recuadro {
+    flex: 1 1 10%;
     background-image: linear-gradient(to right, #1B072B, #08072B);
     color: white;
-    padding: 18px;
+    padding: 10px;
     border-radius: 12px;
-    width: 20px;
+    width: 10px;
     text-align: left;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    margin: 38px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin: 5px;
 }
-.icono {
-    width: 80px;
-    margin-bottom: 10px;
+.Questions {
+    margin-left: 85px;
 }
 .preguntasfrecuentes {
     background-color: black;
@@ -115,8 +132,14 @@ h4 {
     max-height: 200px;
     padding: 10px;
 }
-p { 
-    color:  rgb(255, 255, 255);
+.boton-final {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 8%;
+}
+.margin {
+    margin-left: 80px;
 }
 .footer {
     display: flex;
@@ -148,8 +171,4 @@ small {
     height: 4px;
     width: 100%;
  }
- .degradado-azul {
-    height: 6px;
-    width: 100%;
-    background: linear-gradient (to bottom, rgba(0, 0, 255, 0.6));
- }
+ 
