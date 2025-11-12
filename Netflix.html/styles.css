@@ -39,6 +39,11 @@ body {
     font-size: 16px;
     margin-bottom: 20px;
 }
+.marco-inicial {
+    background-color: transparent;
+    padding: 10px 60px;
+    margin: 5px;
+}
 button {
     background-color: red;
     color: white;
@@ -50,7 +55,7 @@ button {
     padding: 10px 15px;
 
 }
-.marco {
+.marco-final {
     background-color: transparent;
     padding: 10px 60px;
     margin: 5px;
